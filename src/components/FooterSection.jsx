@@ -52,7 +52,7 @@ export default function FooterSection({ profile, socialLinks }) {
       </div>
 
       <div className="footer-powered">
-        <span>Powered by <strong>inaiqu</strong> NFC Smart Card</span>
+        <span>Powered by <strong>inaip</strong> NFC Smart Card</span>
       </div>
     </footer>
   );

@@ -12,7 +12,7 @@ export default function Header({ onContactClick }) {
             <span className="inaiqu-dot"></span>
           </div>
           <div className="inaiqu-brand-text">
-            <span className="inaiqu-brand-name">inaiqu</span>
+            <span className="inaiqu-brand-name">inaip</span>
             <span className="inaiqu-brand-badge">NFC Smart Card</span>
           </div>
         </div>
