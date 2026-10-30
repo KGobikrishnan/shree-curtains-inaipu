@@ -1,6 +1,6 @@
 export const vCardData = {
   profile: {
-    name: "A. Raja",
+    name: "A.Alaguraja",
     verified: true,
     title: "Proprietor & Curtain Specialist",
     company: "Shree Curtains",
@@ -164,10 +164,13 @@ export const vCardData = {
   ],
 
   bankDetails: {
-    accountName: "A. Raja - Shree Curtains",
-    accountNumber: "9865860076",
-    ifsc: "Contact for NEFT/IMPS",
-    bank: "Cumbum Branch, Theni Dt.",
+    accountName: "SHREE INTERIORS",
+    accountNumber: "048150050800313",
+    accountType: "Current Account",
+    bank: "Tamilnad Mercantile Bank (TMB)",
+    branch: "CHINNAMANUR",
+    ifsc: "TMBL0000048",
+    micr: "625060105",
     upiId: "9865860076@upi",
   },
 
@@ -212,10 +215,10 @@ export const vCardData = {
   ],
 
   businessDetails: [
-    { label: "Proprietor", value: "A. Raja" },
-    { label: "Business", value: "Shree Curtains" },
+    { label: "Full Name", value: "A.Alaguraja" },
+    { label: "Firm Name", value: "Shree Curtains / Shree Interiors" },
+    { label: "Account Name", value: "SHREE INTERIORS" },
     { label: "Location", value: "Cumbum, Theni Dt." },
-    { label: "Specialist In", value: "Curtains & Blinds" },
   ],
 
   faqs: [

@@ -122,10 +122,22 @@ export default function PaymentMethodsSection({ paymentMethods, bankDetails, onS
                 <span className="info-key">Bank:</span>
                 <span className="info-val">{bankDetails.bank}</span>
               </div>
+              {bankDetails.branch && (
+                <div className="bank-info-row">
+                  <span className="info-key">Branch:</span>
+                  <span className="info-val">{bankDetails.branch}</span>
+                </div>
+              )}
               <div className="bank-info-row">
                 <span className="info-key">Account Name:</span>
                 <span className="info-val">{bankDetails.accountName}</span>
               </div>
+              {bankDetails.accountType && (
+                <div className="bank-info-row">
+                  <span className="info-key">Account Type:</span>
+                  <span className="info-val">{bankDetails.accountType}</span>
+                </div>
+              )}
               <div className="bank-info-row">
                 <span className="info-key">Account Number:</span>
                 <span className="info-val copyable" onClick={() => copyToClipboard(bankDetails.accountNumber, 'Account Number')}>
@@ -138,6 +150,14 @@ export default function PaymentMethodsSection({ paymentMethods, bankDetails, onS
                   {bankDetails.ifsc} <Copy size={13} />
                 </span>
               </div>
+              {bankDetails.micr && (
+                <div className="bank-info-row">
+                  <span className="info-key">MICR Code:</span>
+                  <span className="info-val copyable" onClick={() => copyToClipboard(bankDetails.micr, 'MICR Code')}>
+                    {bankDetails.micr} <Copy size={13} />
+                  </span>
+                </div>
+              )}
               <div className="bank-info-row">
                 <span className="info-key">UPI ID:</span>
                 <span className="info-val copyable" onClick={() => copyToClipboard(bankDetails.upiId, 'UPI ID')}>
